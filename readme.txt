@@ -13,3 +13,7 @@ Git learn
 8.git reset --hard commit_id
 9.git checkout --<file>
 10.rm <file>
+#关联github
+git remote add origin git@github.com:touruscy/learngit.git
+#推送到github
+git push -u origin master

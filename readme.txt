@@ -26,7 +26,20 @@ git checkout<name>切换分支
 git checkout -b<name>创建+切换分支
 git merge<name> 合并某分支到当前分支
 git branch -d <name>删除分支
+git branch -D <name>强行删除分支（分支没合并内容时强行删除）
 
 git log --graph 可以查看分支合并图
  
- merge
+git stash 隐藏工作现场，修复bug时使用
+git stash pop 返回工作现场
+
+git remote -v查看远程库信息
+git push origin branch-name 本地推送分支
+git pull 抓取远程新提交
+git checkout -b branch-name origin/branch-name 在本地创建和远程分支对应的分支
+git branch --set-upstream branch-name origin/branch-name 建立本地分支和远程分支的关联
+
+git tag<name> 新建一个标签
+git tag -a<tagname> -m "bla..." 可以指定标签信息
+git tag -s<tagname> -m "bla..." 可以用PGP签名标签
+git tag 查看所有的标签

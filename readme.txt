@@ -17,3 +17,5 @@ Git learn
 git remote add origin git@github.com:touruscy/learngit.git
 #推送到github
 git push -u origin master
+#克隆到本地
+git clone add origin git@github.com:touruscy/learngit.git

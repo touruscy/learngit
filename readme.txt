@@ -19,3 +19,10 @@ git remote add origin git@github.com:touruscy/learngit.git
 git push -u origin master
 #克隆到本地
 git clone add origin git@github.com:touruscy/learngit.git
+
+git branch 查看分支
+git branch<name> 创建分支
+git checkout<name>切换分支
+git checkout -b<name>创建+切换分支
+git merge<name> 合并某分支到当前分支
+git branch -d <name>删除分支

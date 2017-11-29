@@ -27,5 +27,4 @@ git checkout -b<name>创建+切换分支
 git merge<name> 合并某分支到当前分支
 git branch -d <name>删除分支
 
-123
-abc
+git log --graph 可以查看分支合并图
